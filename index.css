@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Pixeletter;
+    src: url(./Assets/Fonts/Pixeletter.ttf);
+}
+@font-face {
+    font-family: PixeletterBold;
+    src: url(./Assets/Fonts/PixeletterBold.ttf);
+}
+
+body {
+    /* background-color: black; */
+    background-image: url("./Assets/Images/Pokemon-Landscape-8bit-Landscape-blue.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: url(./Assets/Images/sword_02c.png), auto;
+    color: white;
+    font-family: Pixeletter;
+    line-height: 24px;
+    font-size: 22px;
+}
+
+a:hover, .drop-down:hover{
+    cursor: url(./Assets/Images/sword_02e.png), auto;
+}
+
+a:hover{
+    color: red;
+}
+
+div a:visited{
+    color: lightblue;
+}
+
+#navbar{
+    width:auto;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    background-color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    padding: 20px 10px;
+}
+
+ul{
+    margin: 0;
+    /* padding: 0; */
+    overflow: hidden;
+    border: 10px solid white;
+}
+
+.heart{
+    margin: 15px 2px;
+    height: 30px;
+    width: 30px;
+
+    background: url('./Assets/Images/heart_animated_1.png') 0px 0px;
+    background-size: 150px 30px;
+}
+
+#first-heart{
+    margin-left: 15px;
+}
+
+#animated-heart{
+    background-position-x: 60px;
+}
+
+#coin{
+    margin: 15px 0px;
+    height: 30px;
+    width: 30px;
+
+    background: url('./Assets/Images/MonedaD.png') 0px 0px;
+    background-size: 150px 30px;
+}
+
+li {
+    float: left;
+}
+
+.navbar-right{
+    float: right;
+}
+
+a {
+    color: lightblue;
+    word-wrap: break-word;
+}
+
+
+#nav-interactive{
+    display:none;
+}
+#nav-about{
+    float: right;
+}
+
+#wrapper {
+    border: 10px solid white;
+    width: 300px;
+    margin: 20px auto;
+    background-color: black;
+    padding:0px;
+}
+
+#about{
+    padding:10px;
+}
+
+img {
+    width: 260px;
+    margin: 10px;
+    float: left;
+}
+
+#cleo {
+    float: right;
+}
+
+h2{
+    font-size: 32px;
+    font-family: PixeletterBold;
+    margin: 20px;
+}
+
+p{
+    margin: 10px;
+}
+
+hr {
+    margin: 20px;
+}
+
+h4 {
+    font-family: PixeletterBold;
+    font-size: 20px;
+    width: 172px
+}
+
+.gallery-item {
+    border: 5px solid white;
+    margin: 5px 20px;
+    padding: 15px;
+}
+
+.drop-down{
+    float: right;
+    margin-top: -34px;
+    font-size: 24px;
+}
+
+.gallery-item div{
+    display: none;
+    overflow: hidden;    
+}
+
+.difficulty {
+    margin: auto 0px;
+}
+
+.gallery-item p{
+    word-wrap:break-word;
+    padding-top: 12px;
+}
+
+.details{
+    display: none;
+}
+
+[id*="content-"] {
+    padding:0px;
+}
+
+
+@media only screen and (min-width: 768px){
+    #wrapper{
+        width:700px;
+    }
+    .details{
+        display: inline-block;
+    }
+    h4{
+        width:auto;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #wrapper{
+        width:900px;
+    }
+    #nav-interactive{
+        display:block;
+    }
+}
