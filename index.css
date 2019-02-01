@@ -87,7 +87,7 @@ li a {
 }
 
 .navbar-right{
-    float: right;
+    float: right !important;
 }
 
 a {
@@ -203,8 +203,5 @@ h4 {
 @media only screen and (min-width: 1024px){
     #wrapper{
         width:900px;
-    }
-    #nav-interactive{
-        display:block;
     }
 }
