@@ -116,8 +116,9 @@ a {
 }
 
 img {
-    width: 260px;
+    width: 240px;
     margin: 10px;
+    padding: 10px;
     float: left;
 }
 
@@ -179,8 +180,12 @@ h4 {
     padding:0px;
 }
 
+.bio{
+    padding: 10px;
+}
+
 .about-list {
-    padding-left: 30px;
+    padding-left: 40px;
     list-style-type: square;
 }
 
