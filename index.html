@@ -14,8 +14,8 @@
         <ul id="navbar">
             <li class="heart" id="first-heart"></li>
             <li class="heart"></li>
-            <li class="heart"></li>
             <li class="heart" id="animated-heart"></li>
+            <li><a id="name">Angel Aquas</a></li>
             <li><a id="nav-about" href="#about">About</a></li>
             <li><a id="nav-gallery" href="#gallery">Gallery</a></li>            
             <li class="navbar-right" id="linkedin"><a id="nav-linkedin" href="https://www.linkedin.com/in/angelaquas/" target="_blank">LinkedIn</a></li>
@@ -27,62 +27,58 @@
             <div id="about">
                     <h2>About</h2>
                     <hr>
-                    <img src="./Assets/Images/me.jpg" alt="Personal photo">
                     <p class="bio">                
-                        I am a Web Development student, looking to find work as a game developer or web developer.
+                        Welcome! My name is Angel Aquas, I work as a game developer for GungHo Online Entertainment, America. I'm currently working as a tech designer, but have been a software engineer at GungHo for the past 3 years.
                         <br><br>
-                        I am currently located in Los Angeles, but have spent a majority of my life in Sacramento.
+                        I am currently located in Los Angeles, but I'm originally from Sacramento, California.
                         <br><br>
-                        I graduated from University of California, Los Angeles in 2015 with a BS in Mathematics.
-                        <ul class="about-list">
-                            <li>I'm currently supplementing this education with a UCLA Extension course.</li>
-                            <li>So far I've studied C#, Unity, React, HTML, CSS, JavaScript, jQuery, Node.js, Express.js, Handlebars.js, Firebase, MySQL, Sequelize.js, and Python.</li>
-                            <li>On my portfolio page, you can see different assignments I've completed for this course.</li>
-                            <li>You may also visit my GitHub to view the readme for each of these projects.</li>
-                        </ul>
-        
+                        I graduated from University of California, Los Angeles in 2015 with a BS in Mathematics. After graduating I took a 6 month Full-Stack Web Development course through UCLA Extension.
                     </p>
-                    <img src="./Assets/Images/cleo.jpg" alt="my cat" id="cleo">
-                    <p class="bio" >
-                        <ul class="about-list">
-                        <li>I was born July 26, 1993 in Sacramento, California. In my free time, I try to visit the gym as often as possible. </li>
-                        <li>I am very passionate about rock climbing and have been going to the rock climbing gym at least 4 days a week for the past 10 months.</li>
-                        <li>Other hobbies and interests of mine include video games, anime, fashion, cooking, baking, sleeping, and animals.</li>
-                        <li>I have a single cat, pictured here. </li>
-                        <li>Her name is Cleo and I've had her all of her life, about 18 years.</li>
-                        <li>I have been vegan for over 5 years and try to be involved with animal rights activism when I can.</li>
-                        </ul>
-                    </p>
-                    <br>
-                    <p class="bio">I can be found at the following locations:</p>
-                    <p class="bio">GitHub : <a href=https://github.com/acuteangel target="_blank">https://github.com/acuteangel</a></p>
-                    <p class="bio">LinkedIn : <a href=https://www.linkedin.com/in/angelaquas/ target="_blank">https://www.linkedin.com/in/angelaquas/</a></p>
-                    <br>
                     <br>
             </div>
             <hr>
             <div id="gallery">
                 <h2 style=text-align:center>Gallery</h2>
                 <hr>
+                <h3 style=text-align:center>Professional Projects</h3>
+                <hr>
+                <p style="padding:10px">Published games I've worked on.</p>
+                <div class="gallery-item">
+                    <h4>Volta-X</h4>
+                    <p class="drop-down" data-id=15><span class="details">Details</span> &#9776;</p>
+                    <div id="content-15">
+                        <p>My first professional project as a game developer. Volta-X is a Realtime Strategy in which you control the pilots of Voltas, heavily inspired by Mecha animes of the 70s and 80s.</p>
+                        <p>Website: <a href=https://www.volta-x.com/ target="blank">Opens in new tab</a></p>
+                        <p>My Contributions: </p>
+                        <ul class="about-list">
+                            <li>Gameplay Engineering in C# and Unity</li>
+                            <li>Balance and redesign of gameplay</li>
+                            <li>Codesigner of roguelike update</li>
+                            <li>Helped with backend development and maintenance</li>
+                            <li>Created web tools for our producers to manage the player database</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr id="games">
                 <h3 style=text-align:center>Games</h3>
                 <hr>
-                <p style="padding:10px">A collection of games I've made.</p>
+                <p style="padding:10px">A collection of games I've made in my own time.</p>
+                <div class="gallery-item">
+                    <h4>Heavy Robot Platformer</h4>
+                    <p class="drop-down" data-id=7><span class="details">Details</span> &#9776;</p>
+                    <div id="content-7">
+                        <p>A game made in 5 days as part of my interview for GungHo. </p>
+                        <p>Repository: <a href=https://github.com/acuteangel/GungHo-Unity-Eval target="blank">Opens in new tab</a></p>
+                        <p>Uses: Unity, C#, ShaderLab</p>
+                    </div>
+                </div>
                 <div class="gallery-item">
                     <h4>Project WARN</h4>
-                    <p class="drop-down" data-id=9><span class="details">Details</span> &#9776;</p>                    
+                    <p class="drop-down" data-id=9><span class="details">Details</span> &#9776;</p>
                     <div id="content-9">
                         <p>My final project for The UCLA Bootcamp. I worked as project manager, as well as coded and built most of the core gameplay.</p>
                         <p>Repository: <a href=https://github.com/acuteangel/project-warn/ target="blank">Opens in new tab</a></p>
                         <p>Uses: Unity, C#, MongoDB</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <h4>Heavy Robot Platformer</h4>
-                    <p class="drop-down" data-id=7><span class="details">Details</span> &#9776;</p>                    
-                    <div id="content-7">
-                        <p>A game made in 5 days for the interview process of a job. </p>
-                        <p>Repository: <a href=https://github.com/acuteangel/GungHo-Unity-Eval target="blank">Opens in new tab</a></p>
-                        <p>Uses: Unity, C#, ShaderLab</p>
                     </div>
                 </div>
                 <div class="gallery-item">
@@ -107,7 +103,7 @@
                     <h4>WIP Interactive Portfolio</h4>
                     <p class="drop-down" data-id=14><span class="details">Details</span> &#9776;</p>                    
                     <div id="content-14">
-                        <p>An RPG, intended to be used as a portfolio. Was put on hold to focus on my school projects, with a desire to finish it at some point.</p>
+                        <p>The beginnings of an RPG, intended to be used as a portfolio.</p>
                         <p>Game: <a href=https://acuteangel.github.io/interactive-portfolio/interactive/interactive.html target="blank">Opens in new tab</a></p>
                         <p>Uses: Unity, C#, WebGL</p>
                     </div>
@@ -173,7 +169,7 @@
                 <hr id="apps">
                 <h3 style=text-align:center>Apps</h3>
                 <hr>
-                <p style="padding:10px">A section of the one web application I made, with hopefully more to come.</p>
+                <p style="padding:10px">A web application I made.</p>
                 <div class="gallery-item">
                     <h4>Warhammer 40k ITC Points Tracker</h4>
                     <p class="drop-down" data-id=4><span class="details">Details</span> &#9776;</p>                    
